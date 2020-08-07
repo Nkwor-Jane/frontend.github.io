@@ -1,0 +1,629 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+/* header */
+#header{
+    margin:20px 40px;
+  
+ }
+.logo{
+    float: left;
+    margin-right: 20%;
+}
+
+ .link-lists{
+    font-size: 16px;
+    font-weight: 10px;
+    max-height: 5%;
+    float: left; 
+    padding-right:2%;
+    margin-right:2%;
+
+ }
+
+ .link-lists a{
+    text-decoration: none; 
+    color:inherit; 
+    font-style: italic;
+     
+}
+
+.git-btn{
+    background-color: #000;
+    border-radius: 20px;
+    border:none;
+    color:#fff;
+    padding:10px;
+}
+
+/* section-2 */
+
+.section-2{
+    display: block;
+    clear: both;
+    padding-top:1%;
+}
+ .challenges{
+    clear: right; 
+    margin:15px 50px;
+    padding:1px;
+}
+
+
+
+/* section-3 */
+#section-3{
+  display: inline;
+
+}
+
+.left-col{
+    margin: 30px;
+}
+
+.left-col img{
+    max-width:50%;
+    height: 75vh;
+    margin-right: 30px;;
+    float: left;
+}
+.btn3{
+   
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 10px;
+    margin-right:10px;
+    background-color: #3E54A3;
+    padding: 5px 14px;
+    font-size: 12px;
+}
+.btn4{
+    border: none;
+    border-radius: 15px;
+    color: #999999;
+    background-color: #DBE5E6;
+    margin-top: 10px;
+    padding: 5px 14px;
+    font-size: 12px;
+}
+.right-col{
+    text-align:left; 
+    display:inline-block;
+    margin-left: 3%;
+}
+.right-col h2{
+    font-size:30px;
+    margin:10px 0 30px;
+}
+.html{
+    color: #6ABECD;
+    padding-right:10px;
+    margin-left:10px;
+    padding-top: 10px;
+}
+.css{
+    padding-top: 10px;
+    padding-left:10px;
+    color:#3E54A3;
+
+}
+.free{
+    background-color:#6ABECD;
+    color:#fff;
+    border: none;
+    padding:5px;
+    border-radius: 3px;
+    float: right;
+}
+.right-col h5{
+   display:inline;
+}
+.right-col .btn{
+    width:40px;
+    height: 3px;
+    border-radius: 10px;
+    border:none;
+    background-color: #ccc;
+    margin: 10px;
+    padding:2px;
+
+}
+
+.right-col .btn1{
+    background-color:#5AE2A9 ;
+}
+
+.right-col h4{
+    color: #5AE2A9;
+    text-align: center;
+}
+
+.right-col .btn6{
+    background-color: #ED2C49;
+    text-align: center;
+    width:80%;
+    border-radius: 35px;
+    border:none;
+    color:#fff;
+    padding:20px;
+    font-weight:10px;
+    margin:20px;
+}
+
+.right-col .download-options{
+    margin-top:10px;
+    background-color: #F0F4F4;
+    display: block;
+    width:70vh;
+    padding:20px;
+   
+}
+.download-options a{
+    color:inherit
+}
+.download-options p{
+    font-size: 14px;
+}
+.download-options .pass{
+    width:15px;
+    margin-right:10px;
+
+}
+
+
+/* section 4 */
+#section-4{
+    margin-top: 4%;
+}
+.sketch{
+    clear: both;
+    border: 1px solid #ccc;
+    margin:20px;
+    text-align: center;
+    padding:40px;
+}
+.sketch .diamond{
+    width:40px;
+    margin-top:10px;
+    margin-bottom: 20px;
+
+}
+.sketch h4{
+    margin-bottom: 10px;
+    font-size:15px;
+    padding: 5px;
+}
+.sketch p{
+    margin-bottom: 10px; 
+    font-size: 16px;
+    padding:4px;
+}
+
+.sketch button{
+    margin-bottom: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 15px;
+    width: 25%;
+    background-color: #ED2C49;
+    text-align: center;
+    border-radius: 35px;
+    border:none;
+    color:#fff;
+    font-weight:10px;
+
+}
+
+/* challenges */
+.challenge{
+    text-align: center;
+    font-size:15px;
+    padding:20px;
+
+}
+
+/* section-5 */
+
+#section-5{
+    padding:10px;
+    margin:20px;
+}
+.left-col-5{
+    float:left;
+    margin-right: 15%;
+}
+.left-col-5 p{
+    padding-bottom:10px;
+    font-size:16px;
+}
+.left-col-5 p span, .right-col-5 li span{
+    font-size: 11px;
+}
+.right-col-5{
+    text-align:left;
+    max-width:500px;  
+    display:inline-block;
+}
+.right-col-5 li{
+    padding-bottom:10px;
+    font-size:15px;
+}
+
+.left-col-5 h4, .right-col-5 h4{
+    font-size:28px;
+    padding-bottom:10px;
+    text-align: left;
+    
+}
+
+.left-col-5 a, .right-col-5 a{
+    color:inherit;
+    
+}
+
+.left-col-5 span, .right-col-5 span{
+   background-color: #ccc;
+    
+}
+
+.section-5-btn{
+    border-radius: 15px;
+    cursor: pointer;
+    width: 25%;
+    background-color:#ED2C49;
+    text-align: center;
+    border-radius: 35px;
+    border:none;
+    color:#fff;
+    padding:20px;
+    font-weight:10px;
+    margin:20px;
+}
+/* section-6 */
+.faqs{
+    text-align: center;
+    font-size:15px;
+    padding:20px;
+    margin-top: 60px;
+}
+#section-6{
+    padding:10px;
+    margin: 20px 40px;
+}
+.left-col-6{
+    float: right;
+    
+}
+.right-col-6{
+    margin-left:10%;
+}
+
+.left-col-6, .right-col-6{
+    width:50%;
+  
+}
+.left-col-6 h3, .right-col-6 h3{
+    padding: 10px;
+}
+
+ .line{
+    width:50px;
+    height: 2px;
+    background-color: #000;
+    margin: 10px;
+}
+
+/* <!-- SECTION-7 --> */
+.slack{
+    margin:20px 10px;
+    padding:20px;
+    border:none;
+    background: rgb(75, 91, 155,0.9);
+    color:#fff;
+    text-align: center;
+   
+
+}
+
+/* .section-7 .slack{
+    background-image: url(images/slack1.png);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    transform: rotate(20deg);
+} */
+
+.slack-text h3{
+    padding:20px;
+
+}
+.slack-text p{
+    padding:20px;
+    font-size: 28px;
+}
+.slack-text .form-invite{
+    padding:20px;
+
+}
+.slack-text .form-invite input{
+    background: rgb(75, 91, 155,0.9);
+    border:1px solid #fff;
+    padding:10px;
+    outline:none;
+    color:#fff;
+    width: 40%;
+    height:50px;
+    box-sizing: border-box;
+
+}
+.slack-text .form-invite button{
+    padding:10px;
+    width: 15%;
+    height:50px;
+    border-radius: 220px;
+    background-color: #fff;
+    color:#086fe4da;
+    border:none;
+    font-size:1rem;
+}
+
+/* section-8 */
+
+ #section-8{
+    background-image: url(images/bg-img.png);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+} 
+.left-col-8{
+    margin-right: 25%;
+    padding-left: 20px;
+    text-align:left;
+    float: left;
+}
+.left-col-8 h3{
+ margin-bottom:20px;
+ font-size: 15px;
+}
+.left-col-8 p{
+    font-weight: 50%;
+    font-size: 20px;
+}
+
+
+.left-col-8  .p-check{
+    display:inline;
+    font-size: 14px;
+    
+}
+
+form input{
+    padding-left: 20%;
+    border:1px solid #000 ;
+    color:#fff;
+    padding: 10px;
+    width: 55%;
+    height:20px;
+    margin-top: 10px;
+}
+
+form button{
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100px;
+    background-color: red;
+    text-align: center;
+    border-radius: 35px;
+    border:none;
+    color:#fff;
+    padding:10px;
+    font-weight:10px;
+    margin:20px 15px;
+}
+
+.right-col-8 img{
+    width:100%;
+
+}
+
+.right-col-8{
+    text-align:left;
+    max-width:500px;  
+    display:inline-block;
+
+}  
+
+/* footer */
+#footer{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+ .left-row{
+    margin: 30px;
+    padding:20px;
+    text-align:left;
+    width:50%;
+  
+}
+.footer-left-col{
+    float:left;
+    margin-bottom: 20px;
+}
+.footer-left-col p{
+    padding-right:3rem;
+    padding-bottom: 10px;
+    font-size:15px;
+
+}
+.footer-left-col h3{
+    font-size:15px;
+    padding-right:3rem;
+    padding-bottom: 1rem;
+   
+}
+
+.right-row{
+    margin-left:80%;
+}
+.right-row img{
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+    
+  
+}
+
+/* last-line */
+.last-line{
+    color:#ccc;
+    padding-left:20px;
+    margin:20px;
+    font-size:10px;
+    
+}
+
+.second-last-line{
+    float: right;  
+}
+.second-last-line h3{
+    display:inline;
+    padding-left: 10px;
+}
+
+/* media-queries */
+@media only screen and (max-width:770px){
+    #header .nav-lists{
+        display:none;
+        background-image: url(images/menu.png);
+        width: 50px;
+        right: 64px;
+        top:35px;
+        z-index: 2;
+    }
+    .left-col{
+       margin-bottom: 30px;
+    }
+    .left-col img{
+        max-width:100vh;
+    }
+    .right-col{
+        margin-top:20px;
+    }
+    .right-col .download-options{
+        margin-top:10px;
+        width:60vh;
+        padding:20px;
+       
+    }
+    .sketch p{
+        margin-bottom: 10px; 
+        font-size: 12px;
+    }
+    .sketch button{
+        padding: 10px;
+        font-size:15px;
+        width: 60%;
+    }
+    .left-col-5{
+        font-size:8px;
+        margin-top:15px;
+        margin-left:30px;
+    }
+    .right-col-5{
+        font-size:8px;
+        margin-top:15px;
+        margin-left:30px;
+    }
+    .section-5-btn{
+        padding: 10px;
+        font-size:15px;
+        width: 50%;
+        margin-left: 40px;
+    }
+    .left-col-6{
+        width:100%;
+
+    }
+    .right-col-6{
+        margin-top: 10px;
+        margin-left: 5px;
+        width:100%;
+    }
+    .slack-text p,.slack-text h3{
+        font-size: 18px;
+    }    
+    .slack-text .form-invite input{
+        display: block;
+        width: 90%;
+    }
+    .slack-text .form-invite button{
+        width: 50%;
+        margin-left:5%; 
+
+    }
+    #section-8{
+        margin-top: 20px;
+        background:none;
+        height: 50vh;
+        padding:5px;
+    }
+   
+    .left-col-8 p{
+        font-size:15px;
+    }
+    .left-col-8 h3{
+        font-size: 15px;
+    }
+    .left-col-8 h5{
+        font-size:12px;
+    }
+    .right-col-8 img{
+       display:none;
+    }
+    form input{
+        width: 100%;
+        margin-top: 10px;
+    }
+    form button{
+       width:50%;
+       margin-top:10px;
+        margin-left: 20%;
+    }
+   
+    .left-row{
+        width: 100%;
+        display: inline-block;
+     
+    }
+    .footer-left-col{
+         margin-bottom: 15px;  
+         
+     }
+     .footer-left-col p{
+        padding-bottom: 10px;
+        font-size:15px;
+
+    }
+    .footer-left-col h3{
+        padding-bottom: 10px;
+        font-size:15px;
+    }
+    .right-row{
+        width: 100%;
+        float: right;
+        margin-bottom:10px ;
+      
+    }
+    .right-row img{
+        margin-left: 20px;
+
+    }
+}
